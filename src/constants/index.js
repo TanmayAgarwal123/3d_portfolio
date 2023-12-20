@@ -242,6 +242,13 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: web,
+        theme: 'btn-back-yellow',
+        name: '3D Portfolio',
+        description: 'Discover a captivating realm of boundless 3D creativity and innovation awaiting your exploration within this immersive portfolio experience.',
+        link: 'https://github.com/TanmayAgarwal123/3d_portfolio',
+    },
+    {
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'EnRoute - Shuttle Tracking',
@@ -276,11 +283,4 @@ export const projects = [
     //     description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
     //     link: 'https://github.com/adrianhajdin/projects_realestate',
     // },
-    {
-        iconUrl: web,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
 ];
