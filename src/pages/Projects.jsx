@@ -3,7 +3,7 @@ import { projects } from '../constants';
 import { Link } from 'react-router-dom';
 import { arrow } from '../assets/icons';
 import CTA from '../components/CTA';
-
+import { download } from "../assets/icons";
 
 const Projects = () => {
   return (
@@ -18,6 +18,7 @@ const Projects = () => {
             explore the codebase and contribute your ideas for further enhancements.
             Your collaboration is highly valued!
         </p>
+        
       </div>
       <div className='flex flex-wrap my-20 gap-16'>
         {projects.map((project)=>(
@@ -54,6 +55,13 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      <br/>
+        <div className='relative'>
+          <a href='cv.pdf' download='cv.pdf' className='neo-brutalism-white neo-btn text-sm'>
+            Download CV
+            <img src={download} alt='download' className='w-4 h-4 object-contain' />
+          </a>
+        </div>
       <hr className='border-slate-200'/>
       <CTA/>
     </section>

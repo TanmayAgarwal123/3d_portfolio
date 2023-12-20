@@ -3,7 +3,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import React from 'react';
 import { skills, experiences } from '../constants';
 import CTA from '../components/CTA';
-
+import { download } from "../assets/icons";
 
 const About = () => {
   return (
@@ -17,6 +17,13 @@ const About = () => {
             significant impact on society. I enthusiastically welcome challenges as chances to innovate and bring about 
             positive change, constantly seeking opportunities for learning and growth.
         </p>
+        <br/>
+        <div className='relative'>
+          <a href='cv.pdf' download='cv.pdf' className='neo-brutalism-white neo-btn text-sm'>
+            Download CV
+            <img src={download} alt='download' className='w-4 h-4 object-contain' />
+          </a>
+        </div>
       </div>
       <div className="py-10 flex flex-col">
         <h3 className='subhead-text'>My Skills</h3>

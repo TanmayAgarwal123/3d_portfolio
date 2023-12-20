@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 import { arrow } from "../assets/icons";
-import { download } from "../assets/icons";
 
 const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
@@ -10,12 +9,6 @@ const HomeInfo = ({ currentStage }) => {
       Hi, I am <span className="font-semibold">Tanmay</span>👋
       <br/>
       A Software Engineer from India
-      <br/><br/>
-      <a href='cv.pdf' download='cv.pdf' className='neo-brutalism-white neo-btn text-sm'>
-        Download CV
-        <img src={download} alt='download' className='w-4 h-4 object-contain' />
-      </a>
-
     </h1>
     );
 
