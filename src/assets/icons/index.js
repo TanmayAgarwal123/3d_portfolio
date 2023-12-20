@@ -38,9 +38,10 @@ import thinking from './thinking.svg'
 import seo from './seo.svg'
 import instagram from './instagram.svg'
 import web from './web.svg'
-
+import download from './download.svg'
 
 export {
+    download,
     web,
     instagram,
     seo,
