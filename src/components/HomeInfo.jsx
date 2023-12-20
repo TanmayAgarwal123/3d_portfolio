@@ -12,7 +12,7 @@ const HomeInfo = ({ currentStage }) => {
       A Software Engineer from India
       <br/><br/>
       <a href='cv.pdf' download='cv.pdf' className='neo-brutalism-white neo-btn text-sm'>
-        Download Resume
+        Download CV
         <img src={download} alt='download' className='w-4 h-4 object-contain' />
       </a>
 
