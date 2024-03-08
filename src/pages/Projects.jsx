@@ -57,7 +57,7 @@ const Projects = () => {
       </div>
       <br/>
         <div className='relative'>
-          <a href='cv.pdf' download='cv.pdf' className='neo-brutalism-white neo-btn text-sm'>
+          <a href='tanmay.pdf' download='tanmay.pdf' className='neo-brutalism-white neo-btn text-sm'>
             Download CV
             <img src={download} alt='download' className='w-4 h-4 object-contain' />
           </a>
