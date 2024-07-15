@@ -177,17 +177,18 @@ export const experiences = [
     //         "Participating in code reviews and providing constructive feedback to other developers.",
     //     ],
     // },
+    
     {
-        title: "Web Developer",
-        company_name: "Agrawal Child Hospital",
-        icon: hospital,
-        iconBg: "#d1ffbd",
-        date: "Jan 2023 - July 2023",
+        title: "SEO and Generative AI Intern",
+        company_name: "Pro Start Me ltd.",
+        icon: prostartme,
+        iconBg: "#CBC3E3",
+        date: "Aug 2023 - Sept 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Enhanced hospital website traffic by 50% through implementing SEO strategies and optimizing site performance.",
-
+            "Contributed to an automated reporting tool, cutting reporting time by 54%.",
+            "Competitor analysis resulted in 45% ranking improvement.",
+            "Improved meta titles and descriptions, increasing organic search CTR by 30%.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         ],
     },
     {
@@ -203,16 +204,30 @@ export const experiences = [
         ],
     },
     {
-        title: "SEO and Generative AI Intern",
-        company_name: "Pro Start Me ltd.",
-        icon: prostartme,
-        iconBg: "#CBC3E3",
-        date: "Aug 2023 - Sept 2023",
+        title: "Freelancing Web Developer",
+        company_name: "Agrawal Child Hospital",
+        icon: hospital,
+        iconBg: "#d1ffbd",
+        date: "Jan 2023 - July 2023",
         points: [
-            "Contributed to an automated reporting tool, cutting reporting time by 54%.",
-            "Competitor analysis resulted in 45% ranking improvement.",
-            "Improved meta titles and descriptions, increasing organic search CTR by 30%.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Enhanced hospital website traffic by 50% through implementing SEO strategies and optimizing site performance.",
+
+        ],
+    },
+    
+    {
+        title: "Freelancing Web Developer",
+        company_name: "Lakshya NGO",
+        icon: NGO,
+        iconBg: "#d1ffbd",
+        date: "June 2024 - July 2024",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Made a free of cost website for a education based NGO as social service.",
+
         ],
     },
 ];
@@ -246,7 +261,7 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: '3D Portfolio',
         description: 'Discover a captivating realm of boundless 3D creativity and innovation awaiting your exploration within this immersive portfolio experience.',
-        link: 'https://github.com/TanmayAgarwal123/3d_portfolio',
+        link: 'https://tanmay.site',
     },
     {
         iconUrl: pricewise,
@@ -260,14 +275,14 @@ export const projects = [
         theme: 'btn-back-green',
         name: 'Full Stack Threads Clone',
         description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/TanmayAgarwal123/threads',
+        link: 'https://threads101.netlify.app/',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
+        name: 'SnapGram',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/TanmayAgarwal123/social_media_app',
+        link: 'https://snapgram101.vercel.app/',
     },
     {
         iconUrl: car,
@@ -276,11 +291,11 @@ export const projects = [
         description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
         link: 'https://github.com/TanmayAgarwal123/project_next13_car_showcase',
     },
-    // {
-    //     iconUrl: estate,
-    //     theme: 'btn-back-black',
-    //     name: 'Real-Estate Application',
-    //     description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    //     link: 'https://github.com/adrianhajdin/projects_realestate',
-    // },
+    {
+         iconUrl: estate,
+         theme: 'btn-back-black',
+         name: 'FigPro',
+         description: 'Developed a web application, working clone of figma',
+         link: 'https://figpro101.vercel.app/',
+     },
 ];
