@@ -19,7 +19,7 @@ const About = () => {
         </p>
         <br/>
         <div className='relative'>
-          <a href='https://drive.google.com/file/d/1ZE93km2SyJ5QsOeNfavAy5Kebtbg5RGz/view?usp=sharing' className='neo-brutalism-white neo-btn text-sm'>
+          <a href='https://drive.google.com/file/d/168uOCZ8hYn5CW5Lp4-mxNib57uZXmQgl/view?usp=sharing' className='neo-brutalism-white neo-btn text-sm'>
             Download CV
             <img src={download} alt='download' className='w-4 h-4 object-contain' />
           </a>
