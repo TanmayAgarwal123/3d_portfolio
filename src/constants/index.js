@@ -179,6 +179,18 @@ export const experiences = [
     // },
     
     {
+        title: "Freelancing Web Developer",
+        company_name: "Lakshya NGO",
+        icon: hospital,
+        iconBg: "#feff57",
+        date: "June 2024 - July 2024",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Made a free of cost website for a education based NGO as social service.",
+        ],
+    },
+    {
         title: "SEO and Generative AI Intern",
         company_name: "Pro Start Me ltd.",
         icon: prostartme,
@@ -217,19 +229,7 @@ export const experiences = [
         ],
     },
     
-    {
-        title: "Freelancing Web Developer",
-        company_name: "Lakshya NGO",
-        icon: NGO,
-        iconBg: "#d1ffbd",
-        date: "June 2024 - July 2024",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Made a free of cost website for a education based NGO as social service.",
-
-        ],
-    },
+    
 ];
 
 export const socialLinks = [
@@ -264,11 +264,11 @@ export const projects = [
         link: 'https://tanmay.site',
     },
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'EnRoute - Shuttle Tracking',
-        description: 'Used real-time GPS data in a bus tracking project to streamline routes and cut fuel, leading to cost savings and reduced environmental footprint.',
-        link: 'https://github.com/TanmayAgarwal123/EnRoute',
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'FigPro',
+        description: 'Developed a web application, working clone of figma',
+        link: 'https://figpro101.vercel.app/',
     },
     {
         iconUrl: threads,
@@ -280,9 +280,16 @@ export const projects = [
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'SnapGram',
+        name: 'SNAPGRAM',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
         link: 'https://snapgram101.vercel.app/',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'EnRoute - Shuttle Tracking',
+        description: 'Used real-time GPS data in a bus tracking project to streamline routes and cut fuel, leading to cost savings and reduced environmental footprint.',
+        link: 'https://github.com/TanmayAgarwal123/EnRoute',
     },
     {
         iconUrl: car,
@@ -291,11 +298,11 @@ export const projects = [
         description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
         link: 'https://github.com/TanmayAgarwal123/project_next13_car_showcase',
     },
-    {
-         iconUrl: estate,
-         theme: 'btn-back-black',
-         name: 'FigPro',
-         description: 'Developed a web application, working clone of figma',
-         link: 'https://figpro101.vercel.app/',
-     },
+    // {
+    //     iconUrl: estate,
+    //     theme: 'btn-back-black',
+    //     name: 'Real-Estate Application',
+    //     description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+    //     link: 'https://github.com/adrianhajdin/projects_realestate',
+    // },
 ];
