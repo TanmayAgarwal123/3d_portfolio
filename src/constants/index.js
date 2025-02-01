@@ -261,7 +261,7 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: '3D Portfolio',
         description: 'Discover a captivating realm of boundless 3D creativity and innovation awaiting your exploration within this immersive portfolio experience.',
-        link: 'https://tanmay.site',
+        link: 'https://tanmayresume.com',
     },
     {
         iconUrl: estate,
