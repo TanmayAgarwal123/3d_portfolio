@@ -184,7 +184,7 @@ export const experiences = [
         title: "LLM Research Assistant",
         company_name: "Columbia University",
         icon: columbia,
-        iconBg: "##2596be",
+        iconBg: "#f5f7f9",
         date: "Sept 2025 - current",
         points: [
             "Joined a team whose work has produced over 8,000 citations across top journals, including three ’gold standard’ papers in processfault diagnosis and safety, and led projects advancing the most-cited AI paper in chemical engineering in the last 20 years.",
@@ -195,7 +195,7 @@ export const experiences = [
         title: "Data Analyst",
         company_name: "Suryaa Chamball Power Limited",
         icon: suryaa,
-        iconBg: "#9bedff",
+        iconBg: "#1f8cc0",
         date: "Jan 2025 - Aug 2025",
         points: [
             "Engineered a data analysis framework, reducing manual processing time by 40% and improving data accuracy by 25%",
