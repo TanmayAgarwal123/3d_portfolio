@@ -195,7 +195,7 @@ export const experiences = [
         title: "Data Analyst",
         company_name: "Suryaa Chamball Power Limited",
         icon: suryaa,
-        iconBg: "#feff57",
+        iconBg: "#9bedff",
         date: "Jan 2025 - Aug 2025",
         points: [
             "Engineered a data analysis framework, reducing manual processing time by 40% and improving data accuracy by 25%",
