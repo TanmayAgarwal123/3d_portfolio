@@ -179,6 +179,7 @@ export const experiences = [
     //         "Participating in code reviews and providing constructive feedback to other developers.",
     //     ],
     // },
+    
     {
         title: "LLM Research Assistant",
         company_name: "Columbia University",
