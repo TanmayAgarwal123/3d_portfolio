@@ -13,13 +13,13 @@ const About = () => {
       </h1>
       <div className="flex mt-5 flex-col gap-3 text-slate-500">
         <p> 
-            As a dedicated Software Engineer from India, I'm driven by a strong desire for knowledge and aim to make a 
+            As a dedicated Software Engineer in USA, I'm driven by a strong desire for knowledge and aim to make a 
             significant impact on society. I enthusiastically welcome challenges as chances to innovate and bring about 
             positive change, constantly seeking opportunities for learning and growth.
         </p>
         <br/>
         <div className='relative'>
-          <a href='https://drive.google.com/file/d/168uOCZ8hYn5CW5Lp4-mxNib57uZXmQgl/view?usp=sharing' className='neo-brutalism-white neo-btn text-sm'>
+          <a href='https://drive.google.com/file/d/1LTggjRPnJnpH8EYaFqyiP6pavtG97PqD/view?usp=sharing' className='neo-brutalism-white neo-btn text-sm'>
             Download CV
             <img src={download} alt='download' className='w-4 h-4 object-contain' />
           </a>

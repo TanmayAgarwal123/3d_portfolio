@@ -35,7 +35,9 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    columbia,
+    suryaa
 } from "../assets/icons";
 
 export const skills = [
@@ -177,7 +179,29 @@ export const experiences = [
     //         "Participating in code reviews and providing constructive feedback to other developers.",
     //     ],
     // },
-    
+    {
+        title: "LLM Research Assistant",
+        company_name: "Columbia University",
+        icon: columbia,
+        iconBg: "##2596be",
+        date: "Sept 2025 - current",
+        points: [
+            "Joined a team whose work has produced over 8,000 citations across top journals, including three ’gold standard’ papers in processfault diagnosis and safety, and led projects advancing the most-cited AI paper in chemical engineering in the last 20 years.",
+            "Supported cross-disciplinary research in adaptive systems and AI, working in a lab awarded multiple NSF/doctoral fellowships,recognized by premier engineering societies, and led by faculty newly elected to the National Academy of Engineering in 2025",
+        ],
+    },
+    {
+        title: "Data Analyst",
+        company_name: "Suryaa Chamball Power Limited",
+        icon: suryaa,
+        iconBg: "#feff57",
+        date: "Jan 2025 - Aug 2025",
+        points: [
+            "Engineered a data analysis framework, reducing manual processing time by 40% and improving data accuracy by 25%",
+            "Trained ML algorithms using Python and SQL to build predictive models for power loss estimation, increasing accuracy by 15%",
+            "Architected real-time Power BI dashboards, enabling stakeholders to identify anomalies and make data-driven decisions.",
+        ],
+    },
     {
         title: "Freelancing Web Developer",
         company_name: "Lakshya NGO",

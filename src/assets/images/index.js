@@ -7,6 +7,8 @@ import logo from './logo.svg'
 import prostartme from './prostartme.png'
 import codeclause from './codeclause.png'
 import hospital from './hospital.png'
+import columbia from './columbia_logo.jpg'
+import suryaa from './suryaa_logo.png'
 
 export {
     hospital,
@@ -17,5 +19,7 @@ export {
     shopify,
     starbucks,
     tesla,
-    logo
+    logo,
+    columbia,
+    suryaa
 }
