@@ -39,6 +39,8 @@ import seo from './seo.svg'
 import instagram from './instagram.svg'
 import web from './web.svg'
 import download from './download.svg'
+import columbia from './columbia_logo.jpg'
+import suryaa from './scpl.png'
 
 export {
     download,
@@ -81,5 +83,7 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    columbia,
+    suryaa
 }

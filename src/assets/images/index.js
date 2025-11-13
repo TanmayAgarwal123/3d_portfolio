@@ -8,7 +8,7 @@ import prostartme from './prostartme.png'
 import codeclause from './codeclause.png'
 import hospital from './hospital.png'
 import columbia from './columbia_logo.jpg'
-import suryaa from './suryaa_logo.png'
+import suryaa from './scpl.png'
 
 export {
     hospital,
