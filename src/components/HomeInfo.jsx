@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+//import { ArrowRight, Briefcase, Code, Mail } from "lucide-react";
 import { arrow } from "../assets/icons";
 
 const HomeInfo = ({ currentStage }) => {
@@ -8,7 +8,7 @@ const HomeInfo = ({ currentStage }) => {
       <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
       Hi, I am <span className="font-semibold">Tanmay</span>👋
       <br/>
-      A Software Engineer from India
+      A Software Engineer based in USA
     </h1>
     );
 
@@ -20,7 +20,7 @@ const HomeInfo = ({ currentStage }) => {
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
-          Learn more
+          My Journey
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
