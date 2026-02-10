@@ -14,7 +14,7 @@ import { useEffect, useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 
-import islandScene from "../assets/3d/island.glb";
+import islandScene from "../assets/3d/island.glb?url";
 
 const Island = ({
   isRotating,
@@ -77,7 +77,7 @@ const Island = ({
     }
   };
 
-  useFrame(() => {
+  useFrame((_, delta) => {
     if (!isRotating) {
       rotationSpeed.current *= dampingFactor;
 
@@ -87,6 +87,8 @@ const Island = ({
 
       islandRef.current.rotation.y += rotationSpeed.current;
     } else {
+      // Rotate island at same speed as sky when dragging
+      islandRef.current.rotation.y -= 0.25 * delta;
       const rotation = islandRef.current.rotation.y;
 
       const normalizedRotation =
@@ -132,7 +134,6 @@ const Island = ({
   
 
   return (
-    // {Island 3D model from: https://sketchfab.com/3d-models/foxs-islands-163b68e09fcc47618450150be7785907}
     <a.group ref={islandRef} {...props}>
       <mesh
         geometry={nodes.polySurface944_tree_body_0.geometry}

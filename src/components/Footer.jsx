@@ -5,10 +5,10 @@ import { socialLinks } from "../constants";
 const Footer = () => {
   return (
     <footer className='footer font-poppins'>
-      <hr className='border-slate-200' />
+      <hr className='border-slate-200 dark:border-slate-700' />
 
       <div className='footer-container'>
-        <p>
+        <p className="dark:text-slate-300">
           © 2025 <strong>Tanmay Agarwal</strong>. All rights reserved.
         </p>
 
@@ -18,7 +18,7 @@ const Footer = () => {
               <img
                 src={link.iconUrl}
                 alt={link.name}
-                className='w-6 h-6 object-contain'
+                className='w-6 h-6 object-contain dark:invert dark:opacity-80'
               />
             </Link>
           ))}

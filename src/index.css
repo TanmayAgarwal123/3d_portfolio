@@ -7,10 +7,28 @@
 :root {
   --blue-rgb: 237 245 255;
   --green-rgb: 125 161 35;
+  --background: 210 40% 96.1%;
+  --foreground: 222.2 84% 4.9%;
+  --primary: 217.2 91.2% 59.8%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 90%;
+  --muted: 210 40% 80%;
+  --accent: 210 40% 85%;
+}
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+  --primary: 217.2 91.2% 59.8%;
+  --primary-foreground: 222.2 84% 4.9%;
+  --secondary: 217.2 32.6% 17.5%;
+  --muted: 217.2 32.6% 30%;
+  --accent: 217.2 32.6% 25%;
 }
 
 body {
   font-family: "Work Sans", sans-serif;
+  @apply bg-slate-300/20 dark:bg-slate-900 transition-colors duration-300;
 }
 
 body:has(.card[data-color="blue"]:hover) {
@@ -19,6 +37,23 @@ body:has(.card[data-color="blue"]:hover) {
 
 body:has(.card[data-color="green"]:hover) {
   background-color: rgb(var(--green-rgb) / 25%);
+}
+
+/* Timeline date text - black on mobile, white on large screens */
+.vertical-timeline-element-date {
+  color: black !important;
+  opacity: 1 !important;
+}
+
+@media (min-width: 1170px) {
+  .vertical-timeline-element-date {
+    color: white !important;
+  }
+}
+
+/* Ensure images are not affected by theme */
+img {
+  filter: none !important;
 }
 
 @layer utilities {
