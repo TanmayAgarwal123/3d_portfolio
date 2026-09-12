@@ -77,13 +77,23 @@ export const experiences = [
   //         "Participating in code reviews and providing constructive feedback to other developers.",
   //     ],
   // },
-
+{
+    title: "SDE Intern",
+    company_name: "Regeneron Pharmaceuticals",
+    icon: columbia,
+    iconBg: "#f5f7f9",
+    date: "May 2026 - Aug 2026",
+    points: [
+      "Implemented an LLM-powered document automation pipeline (Python, AWS, Bitbucket CI/CD, WebSockets) projected to save Regeneron $95k annually by eliminating 6+ hours of manual processing per document change control",
+      "Engineered a document extraction and validation system using Claude, RAG retrieval, structured output parsing, and human-in-the-loop review, processing 750+ documents at 98% accuracy",
+    ],
+  },
   {
     title: "LLM Research Assistant",
     company_name: "Columbia University",
     icon: columbia,
     iconBg: "#f5f7f9",
-    date: "Sept 2025 - current",
+    date: "Sep 2025 - May 2026",
     points: [
       "Joined a team whose work has produced over 8,000 citations across top journals, including three ’gold standard’ papers in processfault diagnosis and safety, and led projects advancing the most-cited AI paper in chemical engineering in the last 20 years.",
       "Supported cross-disciplinary research in adaptive systems and AI, working in a lab awarded multiple NSF/doctoral fellowships,recognized by premier engineering societies, and led by faculty newly elected to the National Academy of Engineering in 2025",
@@ -106,7 +116,7 @@ export const experiences = [
     company_name: "Lakshya NGO",
     icon: hospital,
     iconBg: "#feff57",
-    date: "June 2024 - July 2024",
+    date: "Jun 2024 - Jul 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -118,7 +128,7 @@ export const experiences = [
     company_name: "Pro Start Me ltd.",
     icon: prostartme,
     iconBg: "#CBC3E3",
-    date: "Aug 2023 - Sept 2023",
+    date: "Aug 2023 - Sep 2023",
     points: [
       "Contributed to an automated reporting tool, cutting reporting time by 54%.",
       "Competitor analysis resulted in 45% ranking improvement.",
@@ -131,7 +141,7 @@ export const experiences = [
     company_name: "CodeClause",
     icon: codeclause,
     iconBg: "#9bedff",
-    date: "July 2023 - July 2023",
+    date: "Jul 2023 - Jul 2023",
     points: [
       "Implemented 4 projects, covering all the tasks during the internship.",
       "Showcased skill by decreasing code size by 30%, leading to more streamlined code.",
@@ -143,7 +153,7 @@ export const experiences = [
     company_name: "Agrawal Child Hospital",
     icon: hospital,
     iconBg: "#d1ffbd",
-    date: "Jan 2023 - July 2023",
+    date: "Jan 2023 - Jul 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
