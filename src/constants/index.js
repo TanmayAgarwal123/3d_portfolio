@@ -38,6 +38,7 @@ import {
   typescript,
   columbia,
   suryaa,
+  regeneron,
 } from "../assets/icons";
 
 export const skillCategories = ["All", "Languages", "Frontend", "Backend", "Tools", "Soft Skills"];
@@ -80,7 +81,7 @@ export const experiences = [
 {
     title: "SDE Intern",
     company_name: "Regeneron Pharmaceuticals",
-    icon: columbia,
+    icon: regeneron,
     iconBg: "#f5f7f9",
     date: "May 2026 - Aug 2026",
     points: [
