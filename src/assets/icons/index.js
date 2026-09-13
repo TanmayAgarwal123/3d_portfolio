@@ -41,6 +41,7 @@ import web from './web.svg'
 import download from './download.svg'
 import columbia from './columbia_logo.jpg'
 import suryaa from './scpl.png'
+import regeneron from './regeneron.svg'
 
 export {
     download,
@@ -85,5 +86,6 @@ export {
     soundon,
     soundoff,
     columbia,
-    suryaa
+    suryaa,
+    regeneron
 }
